@@ -27,6 +27,6 @@ public class CalculatorTest {
     @Test
     public void divisionTest() {
         double result = calculator.division(42, 7);
-        assertEquals(7, result);
+        assertEquals(6, result);
     }
 }

@@ -19,6 +19,10 @@ public class Calculator {
     }
 
     public double division(double num1, double num2) {
-        return 0;
+        if (num2 == 0) {
+            throw new IllegalArgumentException("You can't divide by 0");
+        }
+
+        return num1 / num2;
     }
 }

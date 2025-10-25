@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<VBox alignment="TOP_CENTER" spacing="10.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="pl.dominikgubala.advancedprogramming2.calculator.controller.CalculatorController">
+    <padding>
+        <Insets top="20.0" right="20.0" bottom="20.0" left="20.0"/>
+    </padding>
+
+    <Label fx:id="welcomeText" text="%title" />
+
+    <ComboBox fx:id="types" onAction="#onClick"/>
+
+    <StackPane fx:id="container" prefHeight="200" prefWidth="300"/>
+</VBox>

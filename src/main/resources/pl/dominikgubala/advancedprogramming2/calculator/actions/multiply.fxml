@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10.0" xmlns:fx="http://javafx.com/fxml">
+    <TextField fx:id="input1" promptText="%input.a"/>
+    <TextField fx:id="input2" promptText="%input.b"/>
+    <Button fx:id="calculateBtn" text="%calculate"/>
+    <Label fx:id="resultLabel"/>
+</VBox>

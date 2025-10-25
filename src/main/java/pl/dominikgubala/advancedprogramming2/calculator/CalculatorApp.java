@@ -1,8 +1,16 @@
 package pl.dominikgubala.advancedprogramming2.calculator;
 
-public class CalculatorApp {
+import javafx.application.Application;
+import javafx.stage.Stage;
+
+public class CalculatorApp extends Application {
 
     public static void main(String[] args) {
-        System.out.println("Zad 1 - Tworzenie kalkulatora w podejściu TDD z wykorzystaniem JUnit i generowaniem raportu");
+        launch();
+    }
+
+    @Override
+    public void start(Stage stage) throws Exception {
+        stage.show();
     }
 }
